@@ -1,0 +1,131 @@
+
+/* Desktop - Normal Styling */
+
+/* Hero Image */
+.hero img {
+    width: 45%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Service Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Tablet Screen - 768px */
+@media screen and (max-width: 768px) {
+
+    body {
+        background-color: #C49A6C;
+        color: #3B2418;
+    }
+
+    /* Navigation */
+    nav a {
+        margin: 6px;
+        font-size: 14px;
+    }
+
+    /* Hero Image */
+    .hero img {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* Service Cards */
+    .card {
+        width: 45%;
+        margin: 10px;
+    }
+
+    /* Service Images */
+    .card img {
+        width: 100%;
+        height: 180px;
+    }
+
+}
+
+/* Mobile Screen - 480px */
+@media screen and (max-width: 480px) {
+
+    body {
+        background-color: #D8BFA3;
+        color: #3B2418;
+    }
+
+    /* Header */
+    nav {
+        text-align: center;
+    }
+
+    nav h2 {
+        font-size: 24px;
+    }
+
+    /* Navigation */
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    /* Hero Image */
+    .hero img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Hero Heading */
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    /* Service Cards */
+    .cards {
+        display: block;
+    }
+
+    .card {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    /* Service Images */
+    .card img {
+        width: 100%;
+        height: 180px;
+    }
+
+    /* About Section */
+    .about {
+        padding: 30px 15px;
+    }
+
+    /* Contact Section */
+    .contact {
+        padding: 20px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 15px;
+    }
+
+}
+

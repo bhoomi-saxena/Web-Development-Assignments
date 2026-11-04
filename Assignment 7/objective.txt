@@ -1,0 +1,3 @@
+Objective: To learn how to make an existing website responsive and user-friendly on
+ different screen sizes, including mobile phones, tablets, and desktops, using CSS media queries
+  and breakpoints.
