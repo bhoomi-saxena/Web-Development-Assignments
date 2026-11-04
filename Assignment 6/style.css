@@ -1,0 +1,90 @@
+
+/* Common Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #F5F1E8;
+    color: #263A29;
+}
+
+h1 {
+    text-align: center;
+    color: #263A29;
+    margin-bottom: 25px;
+}
+
+/* Gallery */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid #A3B18A;
+    border-radius: 10px;
+}
+
+/* Product Grid */
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.product {
+    background-color: #A3B18A;
+    color: #263A29;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Dashboard */
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 60px 200px 60px;
+
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+
+    gap: 10px;
+}
+
+header {
+    grid-area: header;
+    background-color: #263A29;
+    color: #F5F1E8;
+    padding: 15px;
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: #A3B18A;
+    padding: 15px;
+}
+
+main {
+    grid-area: main;
+    background-color: #E5E9D5;
+    padding: 15px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #263A29;
+    color: #F5F1E8;
+    padding: 15px;
+    text-align: center;
+}
+
