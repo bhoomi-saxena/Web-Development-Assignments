@@ -1,0 +1,116 @@
+body {
+    background-color: #D8C3A5;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    color: #800020;
+}
+/* menu.html */
+.navbar {
+    background-color: #800020;
+    border: 2px solid #D8C3A5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.links {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.navbar .links a {
+    color: white;
+}
+h3 {
+    color: #800020;
+    margin-bottom: 15px;
+}
+.para{
+    color: #800020;
+    font-size: 18px;
+    margin: 20px;
+}
+/* login.html */
+/* Login Container */
+.container {
+    background-color: #D8C3A5;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Mini-Container */
+.mini-container {
+    background-color: #F5EBDD;
+    width: 350px;
+    padding: 25px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Input Fields */
+input {
+    padding: 10px;
+    border: 1px solid #D8C3A5;
+    border-radius: 4px;
+}
+
+/* Button */
+button {
+    background-color: #800020;
+    color: #D8C3A5;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/* Button:hover -->  Changes button color when mouse hovers over it  */
+button:hover {
+    background-color: #5B1728;
+}
+/* products.html */
+/* Products Container */
+.multi-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+}
+/* Individual Product*/
+.product {
+    background-color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+}
+/* Product Images */
+.product img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+/* navbar-hero.html */
+.hero {
+    border: 2px solid #800020;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}

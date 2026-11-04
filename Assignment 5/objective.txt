@@ -1,0 +1,3 @@
+Objective: To understand and implement the core concepts of CSS Flexbox by creating four 
+responsive web page layouts using properties such as display: flex, justify-content, align-items, 
+flex-direction, flex-wrap, gap, and flex-grow to arrange and align elements effectively.

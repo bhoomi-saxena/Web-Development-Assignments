@@ -1,0 +1,55 @@
+/* "*" is called the Universal Selector.  */
+*{
+    padding: 6px;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* :root is used to define global CSS variables that you can use throughout your entire website. */
+:root{
+    --bgcolor: #E6FAF3;
+    --border: #B7E4D1;
+    --heading: #145A46;
+    --button: #239B75;
+    --text: #344E41;
+}
+header{
+    color: var(--text);
+    /* var() is used to access or call a CSS variable that you created earlier. */
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    color: rgba(52, 78, 65, 0.5) ;
+    font-size: small;
+}
+h3{
+    color: var(--heading);
+}
+body{
+    background-color: var(--bgcolor);
+}
+/* Form Field */
+form{
+    background-color: white;
+    border: 1px solid var(--heading);
+}
+input{
+    border: 1px solid var(--border);
+    color: #145A46;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+textarea{
+    border: 1px solid var(--border);
+    margin-left: 5px;
+    margin-top: 3px;
+}
+select{
+    margin: 5px;
+}
+button{
+    background-color: var(--button);
+}

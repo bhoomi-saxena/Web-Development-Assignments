@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Application Form</title>
+</head>
+<body>
+    <header>
+        <h2>Application Form</h2> 
+        <h4>Student internship application • *Required</h4>
+    </header>
+    <form>
+        <h3>Personal Details</h3>
+
+        
+        <label for="userName">Full Name</label> <br>
+        <input id="userName" type="text" placeholder="Bhoomi Saxena" required> <br/> <br/>
+
+        <label for="userMail">Email</label> <br>
+        <input id="userMail" type="email" placeholder="bhoomi@example.com" required><br/> <br/>
+
+        <label for="pass">Password</label> <br>
+        <input id="pass" type="password" placeholder="••••••••" required minlength="8" maxlength="12"><br/> <br/>
+
+        <label for="userContact">Contact Number</label> <br>
+        <input id="userContact" type="tel" placeholder="9912011568" required max="10"> <br> <br>
+
+        <label for="url">Portfolio URL</label> <br>
+        <input id="url" type="url" placeholder="https://example.com"> <br> <br>
+
+        <label for="age">Age</label> <br>
+        <input id="age" type="number" placeholder="19" required min="18"> <br> <br>
+
+        <label>Gender</label> <br>
+        <input id="male" type="radio" name="Gender" value="male">
+        <label for="male">Male</label> <br>
+        <input id="female" type="radio" name="Gender" value="female">
+        <label for="female">Female</label> <br>
+        <input id="other" type="radio" name="Gender" value="other">
+        <label for="other">Other / prefer not to say</label> <br> <br>
+
+        <h3>Education</h3>
+        <label for="course">Course</label> <br>
+        <select id="course">
+            <option value="disable selected">--Select your Course--</option>
+            <option value="btech">B.Tech - Bachelor of Technology</option>
+            <option value="mtech">M.Tech - Master of Technology</option>
+            <option value="bca">BCA - Bachelor of Computer Applications</option>
+            <option value="bsc">B.Sc. Computer Science</option>
+            <option value="bba">BBA - Bachelor of Business Administration</option>
+            <option value="bba">BBA Human Resource Management</option>
+            <option value="mba">MBA - Master of Business Administration</option>
+            <option value="bbm">BBM - Bachelor of Business Management</option>
+            <option value="mbbs">MBBS</option>
+        </select> <br> <br>
+
+        <label for="usercity">Preffered City</label> <br>
+        <input id="usercity" type="text" placeholder="Delhi" ><br> <br>
+
+        <label for="skill">Skills</label> <br>
+        <label for="html">HTML</label>
+        <input id="html" type="checkbox" value="html"> <br>
+        <label for="css">CSS</label>
+        <input id="css" type="checkbox" value="css"> <br>
+        <label for="js">JavaScript</label>
+        <input id="js" type="checkbox" value="js"> <br>
+        <label for="java">Java</label>
+        <input id="java" type="checkbox" value="java"> <br> <br>
+
+        <h3>Internship Details</h3> 
+        <label for="department">Internship Position Applied For</label> <br>
+        <select id="department">
+            <option value="web">Web Development</option>
+            <option value="software">Software Development</option>
+            <option value="hr">Human Resources</option>
+            <option value="digital">Digital Marketing</option>
+            <option value="data">Data Analytics</option>
+        </select> <br> <br>
+
+        <label>Internship Type</label> <br>
+        <input id="remote" type="radio" value="remote">
+        <label for="remote">Remote</label> <br>
+        <input id="onsite" type="radio" value="onsite">
+        <label for="onsite">On-site</label> <br>
+        <input id="hybrid" type="radio" value="hybrid">
+        <label for="hybrid">Hybrid</label> <br> <br>
+
+        <label for="datetime">Interview Date</label> <br>
+        <input id="date" type="date" value="date"> <br> <br>
+
+        <label for="stipend">Expected Monthly Stipend</label> <br>
+        <input id="stipend" type="range" name="stipend" min="5000" max="50000" value="10000">
+        <!-- <div class="range-values">
+            <span>₹10,000</span>
+        </div> -->
+
+        <h3>Skills & Projects</h3>
+        <label  for="s&t">Technical Skills</label> <br>
+        <input id="s&t" type="text" placeholder="Mention your skills"><br> <br>
+        <label for="github">Github Profile Link</label> <br>
+        <input id="github" type="text" placeholder="Paste your Github link"> <br> <br>
+
+        <label for="resume">Upload Resume</label> <br>
+        <input id="resume" type="file" placeholder="Upload your Resume" required> <br> <br> 
+
+        <h3>Additional Information</h3>
+        <label for="ques1">Why do you want to join our internship programme?</label> <br>
+        <textarea  id="ques1" name="ques1" rows="5" cols="50" 
+        placeholder="Write your answer here..."></textarea> <br> <br>
+
+        <div>
+            <input id="confirm" type="checkbox">
+            <label for="confirm">I confirm that the information provided is valid.</label>
+        </div> <br>
+
+        <button id="reset" type="reset">Reset</button>
+        <button id="submit" type="submit">submit</button>
+    </form>
+</body>
+</html>

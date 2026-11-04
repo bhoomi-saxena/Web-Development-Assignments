@@ -1,0 +1,45 @@
+*{
+    padding: 4px;
+    margin: 0;
+    background-color: #F7EFE5;
+    width: 100vw;
+}
+.table-container{
+    padding-right: 10px;
+}
+table{
+    background-color: #754C35;
+}
+caption{
+    color: #754C35;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 6;
+    font-style: italic;
+    padding: 2px;
+}
+th{
+    color: #F7EFE5;
+    background-color: #754C35;
+    font-family: 'Times New Roman', Times, serif;
+}
+tbody{
+    background-color: #F7EFE5;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* tfoot{
+    color: #F7EFE5;
+    background-color: #754C35;
+    font-family: 'Times New Roman', Times, serif;
+} */
+ tfoot{
+    background-color: #754C35;
+    color: black;
+    
+ }
+.camp{
+    text-align: center;
+}
+.every{
+    text-align: center;
+}

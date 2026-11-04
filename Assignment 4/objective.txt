@@ -1,0 +1,3 @@
+Objective: To design and develop a visually appealing, user-friendly café landing page for
+ Brew & Bloom using HTML and CSS. The website aims to showcase the café's identity, introduce
+its services, display a gallery, and provide an easy way for customers to get in touch.

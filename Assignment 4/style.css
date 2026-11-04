@@ -1,0 +1,232 @@
+
+/* Common Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial;
+    background-color: #FFF9F2;
+    color: #3E3028;
+}
+
+/* Header Section */
+header {
+    background-color: #3E3028;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+/* Navigation Links */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+/* Hero Section */
+#home {
+    height: 380px;
+    background-image: url("./Assests/Coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Dark Overlay */
+.overlay {
+    background-color: rgba(0,0,0,0.55);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Hero Heading and Button */
+.content {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.content h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    margin-bottom: 25px;
+}
+
+/* Explore Menu Button */
+.content a {
+    background-color: #A66A43;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 5px;
+}
+
+/* About Section */
+#about {
+    text-align: center;
+    padding: 45px 20px;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+/* Services Section */
+#services {
+    text-align: center;
+    background-color: #F1E5D8;
+    padding: 45px 15px;
+}
+
+#services h2 {
+    margin-bottom: 25px;
+}
+
+/* Common Card Styling */
+.card {
+    display: inline-block;
+    width: 27%;
+    padding: 25px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.card h3 {
+    margin-bottom: 12px;
+}
+
+/* First Card */
+.card1 {
+    background-color: white;
+    border: 2px solid #C49A6C;
+    border-radius: 8px;
+}
+
+/* Second Card */
+.card2 {
+    background-color: #E6C9A8;
+    border-radius: 20px;
+}
+
+/* Third Card */
+.card3 {
+    background-color: #3E3028;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 2px 3px 8px gray;
+}
+
+/* Gallery Section */
+#gallery {
+    text-align: center;
+    padding: 45px 15px;
+    overflow: hidden;
+}
+
+#gallery h2 {
+    margin-bottom: 20px;
+}
+
+/* Gallery Images */
+#gallery img {
+    width: 28%;
+    height: 180px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #F1E5D8;
+    text-align: center;
+    padding: 45px;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+form {
+    background-color: white;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #C49A6C;
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    margin: 12px 0 5px;
+}
+
+/* Input Fields */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C49A6C;
+}
+
+/* Submit Button */
+button {
+    background-color: #3E3028;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #3E3028;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+footer h3 {
+    margin-bottom: 12px;
+}
+
+/* Footer Links */
+footer a {
+    color: #E6B980;
+    text-decoration: none;
+    margin: 5px;
+}
+
+footer p {
+    margin: 10px;
+}
