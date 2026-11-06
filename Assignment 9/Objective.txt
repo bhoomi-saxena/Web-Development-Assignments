@@ -1,0 +1,3 @@
+Objective: To create a responsive Campus Collective landing page using HTML and CSS, 
+practising CSS Grid and Flexbox to arrange content and images neatly across different 
+screen sizes.
