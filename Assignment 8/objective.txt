@@ -1,0 +1,3 @@
+Objective: To create a simple personal portfolio website using HTML to showcase personal
+ information, educational qualifications, skills, and projects in a well-organized and 
+ structured manner.
